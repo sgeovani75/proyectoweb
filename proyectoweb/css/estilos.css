@@ -1,0 +1,79 @@
+body{
+    font-family: 'Source Sans Pro', Tahoma, Geneva, Verdana, sans-serif;
+}
+.portada{
+    height: 300px;
+    background-image: url('../imagenes/bodega.jpg'); 
+    background-color: #1d252c;
+    background-size: 400px 300px ;  
+    background-repeat: no-repeat; 
+    background-position-x: right;   
+}
+/*
+.contendor-imagen{
+    width: 500px;
+}
+*/
+.header{
+    background-color: #1b2127;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    display:flex;
+    justify-content: space-around;
+
+}
+/*selector decendente*/
+.header a{
+    color  :white;
+    text-decoration: none;
+
+}
+.header img{
+    vertical-align: middle;
+}
+
+.portada h1{
+    width: 800px;
+    color: white;
+    /*margin: 100px 50px 100px 50px;*/
+    margin: 0px;
+}
+
+h1 strong{
+    color:#026FFF;
+}
+
+.experiencia{
+    /*
+    border-top: 10px solid red;
+    border-right:10px solid seagreen;
+    border-bottom: 10px solid red;
+    border-left:10px solid seagreen;
+    */
+    /*border-color: red;*/
+    border: 2px solid gray;
+    border-top-left-radius:50px;   
+    border-top-right-radius:50px; 
+    border-radius: 50px;
+    margin: 50px;
+    padding: 50px;
+    background: #dddada;  
+}
+
+.experiencia-interior{
+    background:white;
+    height: 200px; 
+    background-image: url('../imagenes/labo.jpg');
+    background-size: 400px 300px ;  
+    background-repeat: no-repeat; 
+    background-position-x: right;  
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.experiencia h2{    
+    color: rgb(26, 25, 25);
+    padding-left: 50px;
+}
+
