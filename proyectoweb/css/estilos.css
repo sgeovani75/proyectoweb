@@ -134,6 +134,33 @@ h1 strong{
     border-radius: 10px;
     padding: 20px;
 }
+.experiencia-laon{
+    /*
+    border-top: 10px solid red;
+    border-right:10px solid seagreen;
+    border-bottom: 10px solid red;
+    border-left:10px solid seagreen;
+    */
+    /*border-color: red;*/
+    font-family: 'Lato', sans-serif;
+    border: 2px solid rgb(128, 128, 128);
+    border-top-left-radius:10px;   
+    border-top-right-radius:10px; 
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(136, 226, 156);  
+}
+.experiencia-interior-laon{
+    background:rgb(204, 158, 105);
+    height: 240px; 
+    background-image: url('../imagenes/labo.jpg');
+    background-size: 600px 300px ;  
+    background-repeat: no-repeat; 
+    background-position-x: right;  
+    border-radius: 10px;
+    padding: 20px;
+}
 
 
 .experiencia h2{    
