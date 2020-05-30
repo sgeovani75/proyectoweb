@@ -162,6 +162,34 @@ h1 strong{
     padding: 20px;
 }
 
+.experiencia-ndcg{
+    /*
+    border-top: 10px solid red;
+    border-right:10px solid seagreen;
+    border-bottom: 10px solid red;
+    border-left:10px solid seagreen;
+    */
+    /*border-color: red;*/
+    font-family: 'Lato', sans-serif;
+    border: 2px solid rgb(18, 226, 122);
+    border-top-left-radius:10px;   
+    border-top-right-radius:10px; 
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(149, 136, 226);  
+}
+.experiencia-interior-ndcg{
+    background:rgb(131, 13, 209);
+    height: 240px; 
+    background-image: url('../imagenes/matrix.jpg');
+    background-size: 600px 300px ;  
+    background-repeat: no-repeat; 
+    background-position-x: right;  
+    border-radius: 10px;
+    padding: 20px;
+}
+
 
 .experiencia h2{    
     color: rgb(26, 25, 25);
