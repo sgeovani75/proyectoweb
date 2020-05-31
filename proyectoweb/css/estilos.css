@@ -1,14 +1,6 @@
 body{
     font-family: 'Source Sans Pro', Tahoma, Geneva, Verdana, sans-serif;
 }
-<<<<<<< HEAD
-.portada-wgsl{
-    height: 300px;
-    background-image: url('../imagenes/bodega.jpg'); 
-    background-color: #1d252c;
-    background-size: 400px 300px ;  
-    background-repeat: no-repeat;
-=======
 .portada{
     font-family: 'Lato', sans-serif;
     padding: 20px;
@@ -18,7 +10,6 @@ body{
     background-color: #1d252c;
     background-size: 400px 500px ;  
     background-repeat: no-repeat; 
->>>>>>> 4a2032d74d8cb524e78a63e25d7dc91793db9c11
     background-position-x: right;   
 }
 /*
@@ -46,7 +37,7 @@ body{
     vertical-align: middle;
 }
 
-.portada-wgsl h1{
+.portada h1{
     width: 800px;
     color: white;
     /*margin: 100px 50px 100px 50px;*/
@@ -54,7 +45,7 @@ body{
 }
 
 h1 strong{
-    color:rgb(197, 31, 81);
+    color:#026FFF;
 }
 
 .experiencia{
