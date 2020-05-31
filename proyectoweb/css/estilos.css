@@ -1,12 +1,24 @@
 body{
     font-family: 'Source Sans Pro', Tahoma, Geneva, Verdana, sans-serif;
 }
+<<<<<<< HEAD
 .portada-wgsl{
     height: 300px;
     background-image: url('../imagenes/bodega.jpg'); 
     background-color: #1d252c;
     background-size: 400px 300px ;  
     background-repeat: no-repeat;
+=======
+.portada{
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url('../imagenes/bodega.jpg'); 
+    background-color: #1d252c;
+    background-size: 400px 500px ;  
+    background-repeat: no-repeat; 
+>>>>>>> 4a2032d74d8cb524e78a63e25d7dc91793db9c11
     background-position-x: right;   
 }
 /*
@@ -16,7 +28,7 @@ body{
 */
 .header{
     background-color: #1b2127;
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: white;
     margin: 0px;
     display:flex;
@@ -25,6 +37,7 @@ body{
 }
 /*selector decendente*/
 .header a{
+    font-family: 'Lato', sans-serif;
     color  :white;
     text-decoration: none;
 
@@ -52,24 +65,56 @@ h1 strong{
     border-left:10px solid seagreen;
     */
     /*border-color: red;*/
+    font-family: 'Lato', sans-serif;
     border: 2px solid gray;
-    border-top-left-radius:50px;   
-    border-top-right-radius:50px; 
-    border-radius: 50px;
-    margin: 50px;
-    padding: 50px;
+    border-top-left-radius:10px;   
+    border-top-right-radius:10px; 
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
     background: #dddada;  
 }
 
 .experiencia-interior{
     background:white;
     height: 200px; 
-    background-image: url('../imagenes/labo.jpg');
-    background-size: 400px 300px ;  
+    background-image: url('../imagenes/laboral.jpg');
+    background-size: 600px 300px ;  
     background-repeat: no-repeat; 
     background-position-x: right;  
-    border-radius: 50px;
-    padding: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* ******************************************** */
+
+.experiencia-govz{
+    /*
+    border-top: 10px solid red;
+    border-right:10px solid seagreen;
+    border-bottom: 10px solid red;
+    border-left:10px solid seagreen;
+    */
+    /*border-color: red;*/
+    font-family: 'Lato', sans-serif;
+    border: 2px solid gray;
+    border-top-left-radius:10px;   
+    border-top-right-radius:10px; 
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    background: #FAA307;  
+}
+
+.experiencia-interior-govz{
+    background:#FAA307;
+    height: 240px; 
+    background-image: url('../imagenes/estudios.jpg');
+    background-size: 600px 300px ;  
+    background-repeat: no-repeat; 
+    background-position-x: right;  
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .experiencia h2{    
